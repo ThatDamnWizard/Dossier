@@ -28,7 +28,7 @@ def BruteForceFaible():
     for essai in BruteForce(liste_de_symbole, longueur_motDePasse):
         if essai == mot_de_passe:
             fin = time.time()
-            print("Mot de passe cisco trouvé en ", (fin - depart), "secondes")
+            print("Mot de passe cisco trouvé en ", round((fin - depart), 2), "secondes")
             break
 
 
@@ -39,7 +39,7 @@ def BruteForceMoyen():
     for essai in BruteForce(liste_de_symbole, longueur_motDePasse):
         if essai == mot_de_passe:
             fin = time.time()
-            print("Mot de passe cisco trouvé en ", (fin - depart), "secondes")
+            print("Mot de passe cisco trouvé en ", round((fin - depart), 2), "secondes")
             break
 
 
